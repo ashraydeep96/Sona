@@ -15,7 +15,7 @@ const Cart = () => {
 
         <div className="container mx-auto mt-10">
           <div className="sm:flex shadow-md my-10">
-            <div className="  w-full  sm:w-3/4 bg-gray-800 rounded-xl px-10 py-10">
+            <div className="  w-full  sm:w-3/4 bg-gray-800 rounded-xl px-10 py-10 rightCard">
               <div className="flex justify-between border-b pb-8">
                 <h1 className="font-semibold text-2xl">Shopping Cart</h1>
                 <h2 className="font-semibold text-2xl">3 Items</h2>
@@ -34,7 +34,7 @@ const Cart = () => {
             
             <div
               id="summary"
-              className=" w-full h-[43rem] sm:w-1/4 md:w-1/2 px-8 py-10 bg-gray-800 rounded-xl ml-2"
+              className=" w-full h-[43rem] sm:w-1/4 md:w-1/2 px-8 py-10 bg-gray-800 rounded-xl ml-2 card2"
             >
               <h1 className="font-semibold text-2xl border-b pb-8">
                 Order Summary

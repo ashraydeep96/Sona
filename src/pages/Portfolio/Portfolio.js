@@ -37,7 +37,7 @@ const Portfolio = () => {
                       </div>
                       <br />
                       <div className="cardsWrapp flex flex-row">
-                        <Card className="mr-5 w-56 bg-gray-800 hover:bg-gray-700 hover:cursor-pointer">
+                        <Card className="cards1 mr-5 w-56 bg-gray-800 hover:bg-gray-700 hover:cursor-pointer">
                           <CardBody>
                             <div className="flex flex-row">
                               <ArrowsUpDownIcon
@@ -62,7 +62,7 @@ const Portfolio = () => {
                             </Typography>
                           </CardBody>
                         </Card>
-                        <Card className="mr-5 w-56 bg-gray-800 hover:bg-gray-700 hover:cursor-pointer">
+                        <Card className="cards2 mr-5 w-56 bg-gray-800 hover:bg-gray-700 hover:cursor-pointer">
                           <CardBody>
                             <div className="flex flex-row">
                               <ArrowTrendingUpIcon
@@ -86,7 +86,7 @@ const Portfolio = () => {
                             </Typography>
                           </CardBody>
                         </Card>
-                        <Card className=" mr-5 w-56 bg-gray-800 hover:bg-gray-700 hover:cursor-pointer">
+                        <Card className="cards3 mr-5 w-56 bg-gray-800 hover:bg-gray-700 hover:cursor-pointer">
                           <CardBody>
                             <div className="flex flex-row">
                               <ArrowTrendingDownIcon

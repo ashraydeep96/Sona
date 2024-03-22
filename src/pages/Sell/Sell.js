@@ -93,7 +93,7 @@ const Sell = () => {
               <div className="navig text-white">
                 <span>Gold ETFs</span>
               </div>
-              <div className="flex flex-row">
+              <div className="etf1 flex flex-row">
                 {etfCardData.map((card, index) => (
                   <SellCard
                     key={index}
@@ -111,7 +111,7 @@ const Sell = () => {
               <div className="navig text-white">
                 <span>Gold SGBs</span>
               </div>
-              <div className="flex flex-row">
+              <div className="etf1 flex flex-row">
                 {sgbCardData.map((card, index) => (
                   <SellCard
                     key={index}
@@ -129,7 +129,7 @@ const Sell = () => {
               <div className="navig text-white">
                 <span>Physical Gold</span>
               </div>
-              <div className="flex flex-row">
+              <div className="etf1 flex flex-row">
                 {physicalCardData.map((card, index) => (
                   <SellCard
                     key={index}
@@ -147,7 +147,7 @@ const Sell = () => {
               <div className="navig text-white">
                 <span>Digital Gold</span>
               </div>
-              <div className="flex flex-row">
+              <div className="etf1 flex flex-row">
                 {digitalCardData.map((card, index) => (
                   <SellCard
                     key={index}

@@ -8,13 +8,13 @@ import ChartSection from "../../../Components/Chart/ChartSection";
 
 const Dashboard2 = () => {
   return (
-    <div className="MainWrappers">
+    <div className="MainWrappers lg:flex lg:flex-row md:flex md:flex-col sm:flex sm:flex-col ">
       <div className="leftWrappers">
         <div className="m-2 mt-7 text-white">
           <div className="port">
             <span>Porfolio</span>
           </div>
-          <div className="m-5 mt-10 grid gap-y-10 gap-x-6 md:grid-cols-2 xl:grid-cols-4">
+          <div className="upCard m-5 mt-10 grid gap-y-10 gap-x-6 md:grid-cols-2 sm:grid-cols-2 sm:gap-y-10 sm:gap-x-6  xl:grid-cols-4">
             {statisticsCardsData.map(({ icon, title, footer, ...rest }) => (
               <StatisticsCard
                 key={title}
@@ -210,7 +210,7 @@ const Dashboard2 = () => {
           </div>
         </div>
       </div>
-      <div className="rightWrappers">
+      <div className="rightWrappers md:ml-10">
         <ChartSection Id={"bitcoin"} />
       </div>
     </div>

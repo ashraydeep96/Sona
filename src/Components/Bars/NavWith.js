@@ -44,6 +44,7 @@ import logo from "../../assets/logo.png";
 import { useNavigate } from "react-router-dom";
 import { useCallback } from "react";
 import { useAuth0 } from "@auth0/auth0-react";
+import "./NavWith.css";
 
 export default function NavWith() {
   const [openNav, setOpenNav] = React.useState(false);
@@ -220,15 +221,16 @@ export default function NavWith() {
 
 
   return (
-    <div className="-m-6 max-h-[768px] w-[calc(100%+48px)] overflow-hidden bg-transparent">
+    <div className="-m-6 max-h-[768px] w-[calc(100%+48px)] bg-transparent">
       {/* HEADER */}
-      <Navbar className="sticky top-0 z-10 h-max max-w-full rounded-none py-2 lg:px-8 lg:py-2 bg-gray-900">
+      <Navbar className="sticky top-0 z-10 h-max max-w-full rounded-none py-2 bg-gray-900">
         <div className="flex items-center justify-start text-white mt-5">
           <IconButton
             variant="text"
             size="lg"
             onClick={openDrawer}
             color="white"
+            className="sideBar"
           >
             {isDrawerOpen ? (
               <XMarkIcon className="h-8 w-8 stroke-2" />
@@ -251,7 +253,7 @@ export default function NavWith() {
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
-                  className="h-6 w-6"
+                  className="h-6 w-6 rightIcon"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
                   strokeWidth={2}
@@ -285,10 +287,7 @@ export default function NavWith() {
           {navList}
           <div className="flex items-center gap-x-1">
             <Button fullWidth variant="gradient" size="sm" className="">
-              <span>Log In</span>
-            </Button>
-            <Button fullWidth variant="gradient" size="sm" className="">
-              <span>Sign in</span>
+              <span>Log Out</span>
             </Button>
           </div>
         </MobileNav>

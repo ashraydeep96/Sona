@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Chart from "react-apexcharts";
+import "../../pages/Portfolio/Portfolio.css";
 
 export class OneChart extends Component {
   constructor(props) {
@@ -190,7 +191,7 @@ export class OneChart extends Component {
 
   render() {
     return (
-      <div>
+      <div className="chart1">
         <span className="text-white mb-5">Gold Overview</span>
         <div className="container mt-3">
           <div className="row">

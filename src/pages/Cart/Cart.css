@@ -10,3 +10,14 @@
 .imagCard{
     height: 180px;
 }
+@media (max-width: 660px){
+    .rightCard{
+        margin-bottom: 10px;
+        width: auto;
+        margin: 10px;
+    }
+    .card2{
+        width: auto;
+        margin: 10px;
+    }
+}

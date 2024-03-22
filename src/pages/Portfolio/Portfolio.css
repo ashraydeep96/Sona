@@ -1038,4 +1038,26 @@
       min-width: 100%;
     }
   }
-      
+  @media (max-width: 780px){
+    .frame-div{
+      display: flex;
+      flex-direction: column;
+    }
+    .cardsWrapp{
+      display: flex;
+      flex-direction: column;
+      margin: 10px;
+    }
+    .cards1{
+      margin-bottom: 10px;
+    }
+    .cards2{
+      margin-bottom: 10px;
+    }
+    .container-56{
+      width: 450px;
+    }
+    .chart1{
+      width: 700px;
+    }
+}

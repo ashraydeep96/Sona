@@ -10,3 +10,8 @@
 .imagCard{
     height: 180px;
 }
+@media (max-width: 660px){
+    .etf1{
+        flex-direction: column;
+    }
+}

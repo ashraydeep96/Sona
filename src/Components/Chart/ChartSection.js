@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Chart from "react-apexcharts";
+import "../../pages/Dashboard/Dashboard2/Dashboard2.css";
 
 export class ChartSection extends Component {
   constructor(props) {
@@ -190,7 +191,7 @@ export class ChartSection extends Component {
 
   render() {
     return (
-      <div>
+      <div className="chart">
         <span className="text-white mb-5">Gold Overview</span>
         <div className="container mt-3">
           <div className="row">
