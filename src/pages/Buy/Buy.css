@@ -1,0 +1,12 @@
+.port {
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    justify-content: left;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    margin-left: 2rem;
+}
+.imagCard{
+    height: 180px;
+}

@@ -1,0 +1,68 @@
+.mainwrapper{
+    display: flex;
+}
+
+.leftWrapper{
+    width: 60%;
+}
+
+.rightWrapper{
+    width: 40%;
+    margin-top: 80px;
+}
+
+.card{
+    display: inline-flex;
+    flex-direction: row;
+    width: 90px;
+}
+
+.perGm{
+    width: 70px;
+}
+
+.index{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.index2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 40px;
+}
+
+.index3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 1.25rem;
+    margin-left: 2.5rem;
+}
+
+.rightCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.total{
+    display: flex;
+    flex-direction: column;
+}
+
+.current{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.etfs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

@@ -1,0 +1,1041 @@
+.child-i {
+    align-self: stretch;
+    flex-direction: column;
+    gap: 26.5px 0;
+    max-width: 100%;
+  }
+  .child-h,
+  .child-i,
+  .portfolio {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .child-h {
+    width: 100%;
+    padding: 90px 50px 50px 50px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .portfolio {
+    width: 100%;
+    position: relative;
+    background-color: #161616;
+    box-shadow: 0 3px 6px rgba(18, 15, 40, 0.12);
+    overflow: hidden;
+    flex-direction: row;
+    gap: 0 47px;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 1250px) {
+    .portfolio {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .portfolio {
+      gap: 0 23px;
+    }
+  }
+  .div2 {
+    flex: 1 1;
+    position: relative;
+    font-size: 12px;
+    line-height: 22px;
+    font-family: Manrope;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    margin-left: 112px;
+    margin-bottom: -11px;
+    z-index: 2;
+    background-color: #2e2e2f;
+    padding-left: 36px;
+    padding-right: 37px;
+    padding-bottom: 8px;
+    padding-top: 7px;
+    border-radius: 13px;
+  }
+  .container-49 {
+    cursor: pointer;
+    border: 0;
+    padding: 13px 18px 8px 19px;
+    background-color: #161616;
+    width: 96px;
+    margin: 0 !important;
+    position: absolute;
+    bottom: -36.3px;
+    left: 340px;
+    border-radius: 22px;
+    box-shadow: 0 0 2px rgba(23, 26, 31, 0.12), 0 0 1px rgba(23, 26, 31, 0.07);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .container-49:hover {
+    background-color: #4a4a4a;
+  }
+  .search-for-sgb {
+    width: 263px;
+    border: 0;
+    outline: 0;
+    font-family: Manrope;
+    font-size: 12px;
+    background-color: transparent;
+    height: 22px;
+    position: relative;
+    line-height: 22px;
+    color: #bdc1ca;
+    text-align: left;
+    display: inline-block;
+    padding: 0;
+    padding-left: 20px;
+    font-size: medium;
+    font-weight: bold;
+  }
+  .image-64-icon {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    border-radius: 4px;
+    object-fit: cover;
+  }
+  .image-64-icon:hover{
+    cursor: pointer;
+  }
+  .child-m,
+  .container-53 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .container-53 {
+    flex: 1;
+    border-radius: 25px;
+    background-color: #2e2e2f;
+    box-shadow: 0 0 2px rgba(23, 26, 31, 0.12), 0 0 1px rgba(23, 26, 31, 0.07);
+    border: 1px solid #9095a0;
+    justify-content: space-between;
+    padding: 15.5px 22px 11.5px 8px;
+    gap: 20px;
+  }
+  .child-m {
+    align-self: stretch;
+    justify-content: flex-start;
+    padding: 0 0 0 1px;
+  }
+  .portfolio-overview {
+    position: relative;
+    line-height: 26px;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .portfolio-overview-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 2px;
+  }
+  .b{
+    position: relative;
+    line-height: 22px;
+  }
+  .total-assets {
+    position: relative;
+    line-height: 22px;
+    font-size: 25px;
+    font-weight: bolder;
+  }
+  .b {
+    line-height: 64px;
+    white-space: nowrap;
+  }
+  .child-p,
+  .container-56,
+  .frame {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frame {
+    flex-direction: row;
+    padding: 0 3px;
+    font-size: 45px;
+    font-family: Lexend;
+  }
+  .child-p,
+  .container-56 {
+    align-self: stretch;
+    flex-direction: column;
+  }
+  .container-56 {
+    border-radius: 19px;
+    width: 1000px;
+    box-shadow: 0 0 2px rgba(23, 26, 31, 0.12), 0 0 1px rgba(23, 26, 31, 0.07);
+    padding: 32.5px 49px 19px;
+    gap: 12.5px 0;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  .child-p {
+    padding: 0 0 9.5px;
+    gap: 29px 0;
+    font-size: 16px;
+  }
+  .this-months-summary {
+    position: relative;
+    line-height: 22px;
+    font-size: 21px;
+    font-weight: bold;
+    padding-bottom: 20px;
+  }
+  .container-50-parent,
+  .frame-div,
+  .this-months-summary-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .this-months-summary-wrapper {
+    padding: 0 1px;
+  }
+  .container-50-parent,
+  .frame-div {
+    align-self: stretch;
+  }
+  .container-50-parent {
+    flex-direction: row;
+    gap: 0 70px;
+    text-align: center;
+    font-size: 15px;
+  }
+  .frame-div {
+    flex-direction: column;
+    padding: 15px 5px 16.5px;
+    gap: 13.5px 0;
+  }
+  .weekly-gold-statistics {
+    position: relative;
+    line-height: 22px;
+    font-size: 21px;
+    font-weight: bold;
+  }
+  .child-l,
+  .weekly-gold-statistics-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .weekly-gold-statistics-wrapper {
+    flex-direction: row;
+    padding: 0 1px;
+  }
+  .child-l {
+    flex: 1;
+    flex-direction: column;
+    gap: 32px 0;
+    min-width: 398px;
+    max-width: 100%;
+  }
+  .image-68-icon {
+    height: 39px;
+    width: 39px;
+    position: relative;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+  .welcome-to {
+    position: relative;
+    line-height: 22px;
+  }
+  .frame-a,
+  .frame-b {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 13.5px 0 0;
+  }
+  .frame-a {
+    flex-direction: row;
+    padding: 0 0 0 20px;
+    gap: 0 20px;
+  }
+  .frame-a:hover{
+    cursor: pointer;
+  }
+  .trade-history {
+    position: relative;
+    line-height: 26px;
+    font-size: 21px;
+    font-weight: bold;
+  }
+  .frame-d {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 1px;
+  }
+  .all,
+  .tota {
+    position: relative;
+    line-height: 22px;
+  }
+  .all:hover,.tota:hover{
+    cursor: pointer;
+    background-color: #2e2e2f;
+    border-radius: 19px;
+  }
+  .january-month {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 1px 21px 0 0;
+  }
+  .total-expenses {
+    position: relative;
+    line-height: 22px;
+  }
+  .total-expenses:hover{
+    cursor: pointer;
+    background-color: #2e2e2f;
+    border-radius: 19px;
+  }
+  .container-c,
+  .symbol {
+    align-items: flex-start;
+  }
+  .symbol {
+    margin: 0;
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    text-align: left;
+    font-size: 12px;
+    color: #fff;
+    font-family: Manrope;
+    font-weight: bold;
+  }
+  .container-c {
+    width: 202px;
+    flex-direction: column;
+    gap: 28.5px 0;
+  }
+  .container-c,
+  .parent-a1,
+  .restaurants1 {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .restaurants1 {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: flex-start;
+    font-size: 16px;
+  }
+  .parent-a1 {
+    width: 384px;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0 20px 0 0;
+    box-sizing: border-box;
+    gap: 40px 0;
+    max-width: 100%;
+    color: #fff;
+  }
+  .pending-transactions {
+    width: 160px;
+    position: relative;
+    line-height: 20px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding-right: 20px;
+  }
+  .image-70-icon {
+    width: 18px;
+    height: 16px;
+    position: relative;
+    border-radius: 4px;
+    object-fit: cover;
+  }
+  .frame-g {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 11.5px 0 0;
+  }
+  .sona-menu {
+    width: 82px;
+    position: relative;
+    line-height: 22px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding-right: 20px;
+  }
+  .restaurants-and-cafes {
+    position: relative;
+    line-height: 18px;
+  }
+  .frame-f,
+  .parent-container1,
+  .text-frame {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .text-frame {
+    flex-direction: row;
+    padding: 0 0 0 1px;
+    font-size: 11px;
+    color: #bdc1ca;
+  }
+  .frame-f,
+  .parent-container1 {
+    flex-direction: column;
+    gap: 2px 0;
+  }
+  .frame-f {
+    flex-direction: row;
+    gap: 0 28px;
+  }
+  .current {
+    position: relative;
+    line-height: 22px;
+  }
+  .restaurantsand-cafes {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 100%;
+    gap: 20px;
+  }
+  .frame-e {
+    align-self: stretch;
+    justify-content: flex-start;
+    padding: 0 39px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .frame-e:hover{
+    background-color: #2e2e2f;
+    border-radius: 19px;
+  }
+  
+  .frame-e,
+  .gold-beauty-products,
+  .italian-restaurants {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .gold-beauty-products {
+    flex: 1;
+    flex-direction: column;
+    gap: 14.5px 0;
+  }
+  .italian-restaurants {
+    width: 410px;
+    flex-direction: row;
+    padding: 0 1px 11px;
+    box-sizing: border-box;
+  }
+  .todays-transactions {
+    width: 160px;
+    position: relative;
+    line-height: 20px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding-right: 20px;
+  }
+  .image-54-icon {
+    width: 18px;
+    height: 18px;
+    position: relative;
+    border-radius: 4px;
+    object-fit: cover;
+  }
+  .image-54-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 11.5px 0 0;
+  }
+  .coffee-investments1 {
+    position: relative;
+    line-height: 22px;
+    padding-right: 9px;
+  }
+  .restaurants-and-cafes1 {
+    position: relative;
+    line-height: 18px;
+  }
+  .food-gold-delivery {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 0 1px;
+    font-size: 11px;
+    color: #bdc1ca;
+  }
+  .coffee-gold-investments,
+  .coffee-investments-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 3px 0;
+  }
+  .coffee-gold-investments {
+    flex-direction: row;
+    gap: 0 28px;
+  }
+  .investment {
+    position: relative;
+    line-height: 22px;
+  }
+  .investment-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 1px 0 0;
+  }
+  .investment-label {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 100%;
+    gap: 20px;
+  }
+  .transaction-frame {
+    align-self: stretch;
+    justify-content: flex-start;
+    padding: 0 39px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+  }
+  .transaction-frame:hover{
+    background-color: #2e2e2f;
+    border-radius: 19px;
+  }
+  .header-frame,
+  .inner-frame,
+  .transaction-frame {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .header-frame {
+    flex: 1;
+    flex-direction: column;
+    gap: 13.5px 0;
+  }
+  .inner-frame {
+    width: 410px;
+    flex-direction: row;
+    padding: 0 1px;
+    box-sizing: border-box;
+  }
+  .image-71-icon {
+    width: 15px;
+    height: 16px;
+    position: relative;
+    border-radius: 4px;
+    object-fit: cover;
+  }
+  .image-71-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 11.5px 0 0;
+  }
+  .food-and-gold,
+  .grocery-gold-delivery1 {
+    position: relative;
+    line-height: 22px;
+  }
+  .food-and-gold {
+    line-height: 18px;
+  }
+  .food-and-gold-delivery-service-wrapper,
+  .rupee-symbol {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .food-and-gold-delivery-service-wrapper {
+    flex-direction: row;
+    padding: 0 0 0 1px;
+    font-size: 11px;
+    color: #bdc1ca;
+  }
+  .rupee-symbol {
+    flex: 1;
+    flex-direction: column;
+    padding: 0 49px 0 0;
+    box-sizing: border-box;
+    gap: 2px 0;
+    min-width: 135px;
+  }
+  .div3 {
+    position: relative;
+    line-height: 22px;
+    white-space: nowrap;
+  }
+  .container-54,
+  .inner-frame-parent {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .container-54 {
+    border-radius: 19px;
+    box-shadow: 0 0 2px rgba(23, 26, 31, 0.12), 0 0 1px rgba(23, 26, 31, 0.07);
+    flex-direction: row;
+    padding: 26.5px 34px 22.5px 38px;
+    gap: 0 30px;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .container-54:hover{
+    background-color: #2e2e2f;
+  }
+
+  .inner-frame-parent {
+    flex-direction: column;
+    gap: 21.5px 0;
+    max-width: 100%;
+  }
+  .image-67-icon {
+    width: 14px;
+    height: 18px;
+    position: relative;
+    border-radius: 4px;
+    object-fit: cover;
+  }
+  .pizza-gold-deals-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 10.5px 0 0;
+  }
+  .tech-investments2 {
+    position: relative;
+    line-height: 22px;
+  }
+  .electronics-investments {
+    position: relative;
+    line-height: 18px;
+  }
+  .electronics-investments-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 0 1px;
+    font-size: 11px;
+    color: #bdc1ca;
+  }
+  .tech-investments-parent,
+  .tech-investments1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2px 0;
+  }
+  .tech-investments1 {
+    flex-direction: row;
+    gap: 0 30px;
+  }
+  .investment1 {
+    position: relative;
+    line-height: 22px;
+  }
+  .gold-delivery-frame,
+  .gold-delivery-frame-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .gold-delivery-frame {
+    flex: 1;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .gold-delivery-frame-wrapper {
+    align-self: stretch;
+    justify-content: flex-start;
+    padding: 0 39px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .gold-delivery-frame-wrapper:hover{
+    background-color: #2e2e2f;
+    border-radius: 19px;
+  }
+  
+  .main-container1,
+  .parent-a-parent {
+    align-self: stretch;
+    flex-direction: column;
+  }
+  .main-container1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 25.5px 0;
+    max-width: 100%;
+  }
+  .parent-a-parent {
+    gap: 27.5px 0;
+  }
+  .child-k,
+  .child-k-inner,
+  .parent-a-parent,
+  .parent-c {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .child-k-inner {
+    width: 409px;
+    flex-direction: column;
+    padding: 2px 0 0;
+    box-sizing: border-box;
+    min-width: 409px;
+    color: #bdc1ca;
+  }
+  .child-k,
+  .parent-c {
+    flex-direction: row;
+  }
+  .leftCont{
+    width: 1005px;
+  }
+  .child-k {
+    flex: 1;
+    gap: 0 47px;
+    width: 1005px;
+  }
+  .parent-c {
+    align-self: stretch;
+    position: relative;
+    text-align: left;
+    font-size: 12px;
+    color: #fff;
+    font-family: Manrope;
+  }
+  @media screen and (max-width: 1100px) {
+    .child-k-inner {
+      flex: 1;
+    }
+    .child-k {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .b {
+      font-size: 36px;
+      line-height: 51px;
+    }
+    .container-50-parent {
+      flex-wrap: wrap;
+    }
+    .child-l {
+      gap: 16px 0;
+    }
+    .child-k {
+      gap: 0 23px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .b {
+      font-size: 27px;
+      line-height: 38px;
+    }
+    .container-56 {
+      padding-left: 20px;
+      padding-right: 20px;
+      box-sizing: border-box;
+    }
+    .child-l {
+      min-width: 100%;
+    }
+    .parent-a1 {
+      gap: 20px 0;
+    }
+    .restaurantsand-cafes {
+      flex-wrap: wrap;
+    }
+    .container-54 {
+      gap: 0 15px;
+    }
+    .container-54,
+    .gold-delivery-frame {
+      flex-wrap: wrap;
+    }
+    .child-k-inner {
+      min-width: 100%;
+    }
+  }
+  .image-99-icon {
+    height: 37px;
+    width: 37px;
+    position: relative;
+    border-radius: 4px;
+    object-fit: cover;
+  }
+  .image-63-icon {
+    height: 341px;
+    flex: 1;
+    position: relative;
+    border-radius: 4px;
+    max-width: 63%;
+    overflow: hidden;
+    object-fit: cover;
+    min-width: 380px;
+    z-index: 1;
+  }
+  .january-2022 {
+    position: relative;
+    line-height: 22px;
+  }
+  .image-56-icon {
+    width: 18px;
+    height: 18px;
+    position: relative;
+    border-radius: 4px;
+    object-fit: cover;
+  }
+  .image-56-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 10.5px 0 0;
+  }
+  .pizza-gold-deals1 {
+    position: relative;
+    line-height: 22px;
+  }
+  .italian-restaurants-investment {
+    position: relative;
+    font-size: 11px;
+    line-height: 18px;
+    color: #bdc1ca;
+  }
+  .gold-beauty-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 29px 0 0;
+    gap: 2px 0;
+  }
+  .investment2 {
+    position: relative;
+    line-height: 22px;
+  }
+  .frame-parent1 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0 29px;
+    max-width: 100%;
+  }
+  .pizza-deals-frame-inner {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 0 0 22px;
+    box-sizing: border-box;
+    color: #fff;
+  }
+  .pizza-deals-frame-inner:hover{
+    cursor: pointer;
+    background-color: #2e2e2f;
+    border-radius: 19px;
+  }
+  .january-frame,
+  .pizza-deals-frame,
+  .pizza-deals-frame-inner {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .pizza-deals-frame {
+    flex: 1;
+    flex-direction: column;
+    gap: 12px 0;
+  }
+  .january-frame {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 8px 0 0;
+    box-sizing: border-box;
+  }
+  .image-73-icon {
+    width: 18px;
+    height: 18px;
+    position: relative;
+    border-radius: 4px;
+    object-fit: cover;
+  }
+  .gold-products-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 10.5px 0 0;
+  }
+  .gold-beauty-products1 {
+    position: relative;
+    line-height: 22px;
+  }
+  .beauty-and-skincare {
+    position: relative;
+    line-height: 18px;
+  }
+  .grocery-gold-products,
+  .tech-investments-frame {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .grocery-gold-products {
+    flex-direction: row;
+    padding: 0 0 0 1px;
+    font-size: 11px;
+    color: #bdc1ca;
+  }
+  .tech-investments-frame {
+    flex: 1;
+    flex-direction: column;
+    padding: 0 58px 0 0;
+    box-sizing: border-box;
+    gap: 2px 0;
+    min-width: 136px;
+  }
+  .div4 {
+    position: relative;
+    line-height: 22px;
+    white-space: nowrap;
+  }
+  .gold-image-frame,
+  .january-frame1 {
+    align-self: stretch;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .january-frame1 {
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0 0 0 20px;
+    gap: 0 28px;
+    color: #fff;
+  }
+  .january-frame1:hover{
+    cursor: pointer;
+    background-color: #2e2e2f;
+    border-radius: 19px;
+  }
+  .gold-image-frame {
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 49px 0;
+    max-width: 100%;
+  }
+  .gold-beauty-products-frame,
+  .image-63-parent,
+  .investment-area {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .investment-area {
+    width: 380px;
+    flex-direction: column;
+    padding: 12.5px 0 0;
+    box-sizing: border-box;
+    min-width: 360px;
+  }
+  .gold-beauty-products-frame,
+  .image-63-parent {
+    flex-direction: row;
+  }
+  .image-63-parent {
+    flex: 1;
+    gap: 0 78px;
+  }
+  .gold-beauty-products-frame {
+    width: 1520px;
+    padding: 0 13px;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 12px;
+    color: #bdc1ca;
+    font-family: Manrope;
+  }
+  @media screen and (max-width: 1100px) {
+    .investment-area {
+      flex: 1;
+    }
+    .image-63-parent {
+      flex-wrap: wrap;
+      gap: 0 39px;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .image-63-parent {
+      gap: 0 19px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .image-63-icon {
+      min-width: 100%;
+    }
+    .frame-parent1,
+    .january-frame1 {
+      flex-wrap: wrap;
+    }
+    .gold-image-frame {
+      gap: 24px 0;
+    }
+    .investment-area {
+      min-width: 100%;
+    }
+  }
+      

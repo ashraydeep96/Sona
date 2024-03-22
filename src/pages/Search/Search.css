@@ -1,0 +1,686 @@
+.gold-e-t-f-name,
+.s-g-b-name,
+.search {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.s-g-b-name {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 40px 0;
+  max-width: 100%;
+}
+.gold-e-t-f-name,
+.search {
+  box-sizing: border-box;
+}
+.gold-e-t-f-name {
+  width: 100% ;
+  flex-direction: column;
+  padding: 90px 50px 50px 50px;
+  max-width: 100%;
+}
+.search {
+  width: 100%;
+  position: relative;
+  background-color: #161616;
+  box-shadow: 0 3px 6px rgba(18, 15, 40, 0.12);
+  overflow: hidden;
+  flex-direction: row;
+  padding: 0 0 2px;
+  gap: 0 45px;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1325px) {
+  .search {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .gold-e-t-f-name {
+    padding-top: 30px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .search {
+    gap: 0 22px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .gold-e-t-f-name {
+    padding-top: 20px;
+    box-sizing: border-box;
+  }
+}
+
+.image-98-icon {
+  position: absolute;
+  top: 14px;
+  left: 11px;
+  border-radius: 4px;
+  width: 22px;
+  height: 22px;
+  object-fit: cover;
+}
+.container-63 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  height: 49px;
+  position: relative;
+  border-radius: 25px;
+  background-color: #2f2f2f;
+  box-shadow: 0 0 2px rgba(23, 26, 31, 0.12), 0 0 1px rgba(23, 26, 31, 0.07);
+}
+.search-box-in{
+    margin-top: 6px;
+    display: flex;
+    flex-direction: row;
+    width: 98%;
+    height: 49px;
+}
+.recommended-for-you-frame {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1px 0 0;
+  box-sizing: border-box;
+  min-width: 658px;
+  max-width: 100%;
+}
+.image-81-icon {
+  width: 22px;
+  height: 24px;
+  position: relative;
+  border-radius: 4px;
+  object-fit: cover;
+}
+.clear-button-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 4px 0 0;
+}
+.image-99-icon {
+  height: 37px;
+  width: 37px;
+  position: relative;
+  border-radius: 4px;
+  object-fit: cover;
+}
+.buy-gold-frame,
+.market-analysis-frame,
+.physical-gold-frame1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buy-gold-frame {
+  gap: 0 13px;
+}
+.market-analysis-frame,
+.physical-gold-frame1 {
+  max-width: 100%;
+}
+.market-analysis-frame {
+  flex: 1;
+  gap: 0 63px;
+}
+.physical-gold-frame1 {
+  align-self: stretch;
+  padding: 0 0 11px 3px;
+  box-sizing: border-box;
+}
+.recent-transactions {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 32px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.recommended-for-you-frame1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 3.5px 0 0;
+}
+.clear {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+}
+.container-61,
+.market-trends-image {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.container-61 {
+  width: 88px;
+  border-radius: 17px;
+  background-color: #d90503;
+  box-shadow: 0 0 2px rgba(23, 26, 31, 0.12), 0 0 1px rgba(23, 26, 31, 0.07);
+  justify-content: flex-start;
+  padding: 8px 26px 1px 27px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 14px;
+  font-family: Manrope;
+}
+.market-trends-image {
+  align-self: stretch;
+  justify-content: space-between;
+  padding: 0 0 0 4px;
+  gap: 20px;
+}
+.image-102-icon {
+  height: 54px;
+  width: 52px;
+  position: relative;
+  border-radius: 4px;
+  object-fit: cover;
+}
+.gold-etf {
+  position: relative;
+  line-height: 24px;
+}
+.gold-etf-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 1px;
+}
+.sgb {
+  position: relative;
+  line-height: 24px;
+  z-index: 1;
+}
+.frame-parent6,
+.image-102-parent,
+.sgb-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sgb-wrapper {
+  height: 22px;
+  flex-direction: row;
+  padding: 0 20px 0 0;
+  box-sizing: border-box;
+}
+.frame-parent6,
+.image-102-parent {
+  flex-direction: column;
+}
+.image-102-parent {
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 0 13px;
+}
+.image-87-icon {
+  width: 14px;
+  height: 20px;
+  position: relative;
+  border-radius: 4px;
+  object-fit: cover;
+}
+.image-frame1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 16px;
+}
+.frame-parent5 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 20px;
+}
+.trade-history-image,
+.trade-history-image-inner {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.trade-history-image-inner {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 1px 0 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: Manrope;
+}
+.trade-history-image {
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 18.5px 0;
+}
+.image-80-icon,
+.image-92-icon {
+  width: 48px;
+  height: 48px;
+  position: relative;
+  border-radius: 24px;
+  object-fit: cover;
+}
+.image-92-icon {
+  width: 52px;
+  height: 47px;
+  border-radius: 4px;
+}
+.investment-strategies {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 17px 0;
+}
+.physical-gold1,
+.trading-tools1 {
+  margin: 0;
+}
+.trading-toolsphysical-gold-container {
+  align-self: stretch;
+  position: relative;
+  line-height: 19px;
+  padding-right: 14px;
+}
+.gold-etfs,
+.market-analysis {
+  margin: 0;
+}
+.market-analysisgold-etfs-container {
+  position: relative;
+  line-height: 17px;
+}
+.investment-info {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 27px 0;
+}
+.digital-gold2,
+.investment-info,
+.physical-gold {
+  display: flex;
+  justify-content: flex-start;
+}
+.digital-gold2 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 6px;
+}
+.physical-gold {
+  width: 167px;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 0 13px;
+}
+.image-86-icon,
+.image-95-icon {
+  width: 14px;
+  height: 20px;
+  position: relative;
+  border-radius: 4px;
+  object-fit: cover;
+}
+.clear-button1,
+.recent-transactions1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.clear-button1 {
+  gap: 44px 0;
+}
+.recent-transactions1 {
+  padding: 14px 0 0;
+}
+.trading-tools {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 20px;
+}
+.recommended-items {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 1px;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: Manrope;
+}
+.investment-strategies-frame,
+.recent-transactions-frame,
+.recommended-items {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.investment-strategies-frame {
+  flex: 1;
+  flex-direction: column;
+  gap: 13px 0;
+}
+.recent-transactions-frame {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 1px;
+  box-sizing: border-box;
+}
+.image-78-icon {
+  height: 48px;
+  width: 48px;
+  position: relative;
+  border-radius: 24px;
+  object-fit: cover;
+  min-height: 48px;
+}
+.investment-strategies1,
+.trade-history1 {
+  margin: 0;
+}
+.investment-strategiestrade-his-container {
+  position: relative;
+  line-height: 19px;
+}
+.frame-wrapper1,
+.image-78-parent,
+.s-g-b-image {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.s-g-b-image {
+  flex-direction: column;
+  padding: 7px 0 0;
+}
+.frame-wrapper1,
+.image-78-parent {
+  flex-direction: row;
+}
+.image-78-parent {
+  flex: 1;
+  gap: 0 16px;
+}
+.frame-wrapper1 {
+  align-self: stretch;
+  padding: 0 0 0 3px;
+}
+.image-76-icon {
+  height: 53px;
+  width: 53px;
+  position: relative;
+  border-radius: 27px;
+  object-fit: cover;
+}
+.digital-gold3,
+.market-trends {
+  margin: 0;
+}
+.digital-goldmarket-trends-container {
+  position: relative;
+  line-height: 17px;
+}
+.market-trends-frame {
+  flex-direction: column;
+  padding: 10.5px 0 0;
+}
+.frame-parent9,
+.market-trends-frame,
+.trade-history-frame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.trade-history-frame {
+  flex-direction: row;
+  padding: 0 20px 0 0;
+  gap: 0 15px;
+}
+.frame-parent9 {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 13px 0;
+}
+.recommended-for-you {
+  position: relative;
+  line-height: 28px;
+}
+.dual-images-frame,
+.frame-parent8 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dual-images-frame {
+  flex-direction: row;
+  padding: 0 4px;
+  font-size: 18px;
+}
+.frame-parent8 {
+  width: 212px;
+  flex-direction: column;
+  gap: 41px 0;
+}
+.image-89-icon,
+.image-94-icon {
+  width: 14px;
+  height: 20px;
+  position: relative;
+  border-radius: 4px;
+  object-fit: cover;
+}
+.frame-wrapper2,
+.image-94-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.image-94-parent {
+  gap: 44px 0;
+}
+.frame-wrapper2 {
+  padding: 14px 0 0;
+}
+.frame-parent7,
+.trading-tools-title {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.frame-parent7 {
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 4px 0 0;
+  gap: 20px;
+  font-size: 14px;
+  font-family: Manrope;
+}
+.trading-tools-title {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 16px 0;
+  max-width: 100%;
+  text-align: left;
+  font-size: 20px;
+  color: #fff;
+  font-family: Lexend;
+}
+@media screen and (max-width: 1325px) {
+  .market-analysis-frame {
+    gap: 0 31px;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .market-analysis-frame {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .recommended-for-you-frame {
+    min-width: 100%;
+  }
+  .market-analysis-frame {
+    gap: 0 16px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .recent-transactions {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .market-trends-image {
+    flex-wrap: wrap;
+  }
+}
+
+.image-85-icon,
+.image-93-icon {
+  flex: 1;
+  position: relative;
+  border-radius: 4px;
+  object-fit: cover;
+}
+.image-85-icon {
+    width: 293px;
+    height: 131px;
+    max-width: 100%;
+    overflow: hidden;
+}
+.image-93-icon {
+  height: 131px;
+  max-width: 100%;
+  overflow: hidden;
+}
+.image-85-parent,
+.image-93-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.image-93-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 1px;
+}
+.image-85-parent {
+  height: 274px;
+  flex-direction: column;
+  gap: 9px 0;
+}
+.image-79-icon,
+.image-88-icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 4px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.image-88-parent {
+  height: 277px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 9px 0;
+}
+.image-77-icon,
+.image-97-icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 4px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.image-97-parent {
+  height: 277px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 9px 0;
+}
+.image-75-icon {
+  height: 133px;
+  flex: 1;
+  position: relative;
+  border-radius: 4px;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.content-box {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 1px 0 0;
+}
+.image-101-icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 4px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.empty-frame {
+  height: 274px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 11px 0;
+}
+.frame-parent10 {
+  align-self: stretch;
+  display: grid;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 1px 0 0;
+  gap: 0 12px;
+  grid-template-columns: repeat(4, minmax(210px, 1fr));
+}
+@media screen and (max-width: 1125px) {
+  .frame-parent10 {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(210px, 364px));
+  }
+}
+@media screen and (max-width: 450px) {
+  .frame-parent10 {
+    grid-template-columns: minmax(210px, 1fr);
+  }
+}
