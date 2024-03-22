@@ -12,7 +12,13 @@ import store from "./redux/store";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <Provider store={store}>
-    <Auth0Provider>
+    <Auth0Provider
+      domain="sona-v13332307.us.auth0.com"
+      clientId="Q3UgGZoVEDJr3GVZ9YJYz8NlNjThjy2d"
+      authorizationParams={{
+        redirect_uri: window.location.origin,
+      }}
+    >
       <BrowserRouter>
         <ThemeProvider>
           <App />
