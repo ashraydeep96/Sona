@@ -9,7 +9,7 @@ export default function Bars() {
 
   return (
     <div>
-      {isAuthenticated ? <NavWith/> : <NavWithOut/>}
+      {isAuthenticated ? <NavWith/> : <NavWithOut transparent />}
     </div>
   );
 }
